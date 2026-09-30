@@ -8,5 +8,4 @@ if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
 
     st.subheader("First 3 Rows:")
-    # Display the first 3 rows directly in the web app
     st.write(df.head(3))
